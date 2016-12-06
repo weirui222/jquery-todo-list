@@ -1,0 +1,43 @@
+.header{
+  text-align: center;
+  margin:0 auto;
+  background: darkred;
+  height: 150px;
+}
+
+h1{
+  color:white;
+  padding-top: 30px;
+}
+
+input, button{
+  font-size: 25px;
+}
+ol li{
+  background: #eee;
+  font-size:25px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+
+ol li: nth-child(odd){
+  background: #f9f9f9;
+}
+
+ol li:hover{
+  background: #ddd;
+}
+
+ol li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 20px;
+}
